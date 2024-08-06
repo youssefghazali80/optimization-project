@@ -1,0 +1,73 @@
+the algorithm we applied is the (teaching learning based optimization) tlbo
+
+
+
+the best solution of thُُe tlbo  algorithm is
+1 wind turbines 
+259 pv panels
+261 batteries
+
+
+the objective function of this solution is 0.05703
+
+
+
+graphs explanantion:
+
+	convergence of the four algorithms : compare the convergence of the obkective function as we iterate  of the four algorithms together 
+	repeatbility of the four algotihms : shows the objective function that each algorithm produce for 20 runs we use these results to calculate the mean and the standard deviation for 	the results of each algorithm to check the repeatbility of the algorithms 
+
+	the convergence of teh tlbo algortihm :show the convergence of the tlbo after 100 iterations
+
+
+
+the mean value of the Ga results: 0.0734899524814612,
+the standard deviation for the Ga results: 0.006041721525795551
+the mean value of the sa results: 0.1435806638229663,
+the standard deviation for the sa results: 0.06226062460392727
+the mean value of the PSO results: 0.06042539352156333,
+the standard deviation for the PSO results: 0.008073063553942349
+the mean value of the TLBO results: 0.057034028488059975,
+the standard deviation for the TLBO results: 6.938893903907228e-18
+
+
+
+
+the best solution for the Ga is : 
+number of wind turbines :1
+number of pv panels :270 
+the number of batteries :319 
+and the objective function = 0.06484329 
+the best solution for the sa is : 
+number of wind turbines :1 
+number of pv panels :341 
+the number of batteries :324 
+and the objective function = 0.06895654 
+the best solution for the PSO is : 
+number of wind turbines :1 
+number of pv panels :261 
+the number of batteries :259 
+and the objective function = 0.05703403 
+the best solution for the TLBO is : 
+number of wind turbines :1 
+number of pv panels :261 
+the number of batteries :259 
+and the objective function = 0.05703403
+	
+	
+	
+
+run time :
+the exceution time for Ga run = 199.6 seconds
+the excecution time for sa run  =13.13 seconds  
+the exceution time for the pso run = 419 seconds
+the excution time for the tlbo run =   6389 seconds                                        # this is beacuse we need to compute the fitness value for 3 times in each iteration and check the 
+										 feasibilty also for three times 
+
+
+	
+
+
+
+
+
